@@ -32,29 +32,6 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
-
   # Chinese (Simplified)
 # ---------------------
 zh: &DEFAULT_ZH
@@ -67,12 +44,8 @@ zh: &DEFAULT_ZH
       section: about
     - title: "时间轴"
       section: timeline
-    - title: "团队"
-      section: team
-    - title: "联系我们"
+    - title: "联系我"
       section: contact
-    - title: "主题源码"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 
 zh-CN:
   <<: *DEFAULT_ZH
